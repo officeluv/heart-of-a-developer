@@ -3,7 +3,9 @@ RSpec.describe HeartOfADeveloper do
     expect(HeartOfADeveloper::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it 'puts out a string' do
+    expect(described_class).to receive(:puts).once
+
+    described_class.speak
   end
 end
