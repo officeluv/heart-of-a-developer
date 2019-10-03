@@ -1,5 +1,29 @@
 # HeartOfADeveloper
 
+Prints out a little developer phrase anywhere you want it to:
+
+```
+      _____           _____
+  ,ad8PPPP88b,     ,d88PPPP8ba,
+ d8P"      "Y8b, ,d8P"      "Y8b
+dP'           "8a8"           `Yd
+8(              "              )8
+I8  Slow is smooth. Smooth is  8I
+ Yb,          fast.          ,dP
+  "8a,                     ,a8"
+    "8a,                 ,a8"
+      "Yba             adP"
+        `Y8a         a8P'
+          `88,     ,88'
+            "8b   d8"
+             "8b d8"
+              `888'
+```
+
+Good for morale.
+
+[view the complete phrase list.](https://github.com/officeluv/heart-of-a-developer/blob/master/lib/heart_of_a_developer.rb)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -19,6 +43,12 @@ Or install it yourself as:
 ## Usage
 
 Call `HeartOfADeveloper.speak` to print out a random developer proverb.
+
+Or, call this method in a view file, for example:
+
+```ruby
+HeartOfADeveloper.illustration(partition_phrase(sample_phrase))
+```
 
 ## Development
 
