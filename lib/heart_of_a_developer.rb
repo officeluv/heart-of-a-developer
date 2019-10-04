@@ -37,8 +37,8 @@ class HeartOfADeveloper
   ].freeze
   LINE_LENGTHS = [25, 23, 19, 15].freeze
 
-  def self.speak
-    puts illustration(partition_phrase(sample_phrase))
+  def self.speak(phrase_to_output = sample_phrase)
+    puts illustration(partition_phrase(phrase_to_output))
   end
 
   def self.sample_phrase
