@@ -33,7 +33,9 @@ class HeartOfADeveloper
     'Make the change easy, then make the change.',
     'Have you been told lately that you rock?',
     'Slow is smooth. Smooth is fast.',
-    'In software, everything is possible but nothing is free.'
+    'In software, everything is possible but nothing is free.',
+    'There seems no plan because it is all plan.',
+    'Work without a vision is toil. Vision without work is a daydream.'
   ].freeze
   LINE_LENGTHS = [25, 23, 19, 15].freeze
 
