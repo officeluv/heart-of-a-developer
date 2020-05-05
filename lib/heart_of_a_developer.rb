@@ -35,7 +35,10 @@ class HeartOfADeveloper
     'Slow is smooth. Smooth is fast.',
     'In software, everything is possible but nothing is free.',
     'There seems no plan because it is all plan.',
-    'Work without a vision is toil. Vision without work is a daydream.'
+    'Work without a vision is toil. Vision without work is a daydream.',
+    'Being enthusiastic is worth 25 IQ points.',
+    'Pros are just amateurs who know how to gracefully recover.',
+    'No problems, no progress.',
   ].freeze
   LINE_LENGTHS = [25, 23, 19, 15].freeze
 
