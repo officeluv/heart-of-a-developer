@@ -39,6 +39,7 @@ class HeartOfADeveloper
     'Being enthusiastic is worth 25 IQ points.',
     'Pros are just amateurs who know how to gracefully recover.',
     'No problems, no progress.',
+    'A well-defined problem is half-solved.',
   ].freeze
   LINE_LENGTHS = [25, 23, 19, 15].freeze
 
